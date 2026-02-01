@@ -825,11 +825,11 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>This table shows the requirements for my module of our system. It is one of the motor modules that will move a wheel on our robot. The table lists out the requirements for the module to work, as well as how the requirement is measured, and what is the lowest measure to not fail.</p>
 <table>
 <thead>
 <tr>
-<th><strong>Requirement Description</strong></th>
+<th><strong>Requirement<br>Description</strong></th>
 <th><strong>Measure of<br> Threshold</strong></th>
 <th><strong>Target<br>Measure</strong></th>
 <th style="text-align: center;"><strong>Stretch<br>Requirement<br>(Y-N)</strong></th>
@@ -845,7 +845,7 @@
 <tr>
 <td>Surface mounted microcontroller</td>
 <td>1 PIC or ESP</td>
-<td>8-bit PIC</td>
+<td>ESP32</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
@@ -855,10 +855,34 @@
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>DC Motor</td>
+<td>Able to move our robot</td>
+<td>Has enough torque to move the robot</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Motor Driver</td>
+<td>Able to control the speed of the motor</td>
+<td>Control the speed of the motor and move it forwards and backwards</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Hall Effect Sensor</td>
+<td>Able to track information about the motor</td>
+<td>Send information about the motor (IE: Speed, Posiotion, Displacement) to the microcontroller</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>LED</td>
+<td>Tell the user what is going on</td>
+<td>Lights up when an error occurs, or when everything is running good</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+<tr>
+<td>Battery</td>
+<td>Output power and last a while</td>
+<td>Output 9 or 12V (depending on the motor requirements), and last for at least 10 minutes</td>
+<td style="text-align: center;">No</td>
 </tr>
 </tbody>
 </table>
