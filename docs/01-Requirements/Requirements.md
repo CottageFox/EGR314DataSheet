@@ -3,7 +3,7 @@ title: Module's Requirements
 ---
 
 ## Module Requirements
-This table shows the requirements for my module of our system. It is one of the motor modules that will move a wheel on our robot. The table lists out the requirements for the module to work, as well as how the requirement is measured, and what is the lowest measure to not fail.
+This table shows the requirements for my module of our system, one side of the drive train. It will use a motor and sensors to acurately move the motor and tell its positon. The table lists out the requirements for the module to work, as well as how the requirement is measured, and what is the lowest measure to not fail.
 
 | **Requirement<br>Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
