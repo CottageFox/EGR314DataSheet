@@ -28,6 +28,6 @@ for<br>
 * This needs to be updated to reflect a team introduction
 * Content should also help an unfamiliar reader navigate to areas of interest. Information like:
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
-
->Continue for all the remaining/missing sections.
+### Other Links
+Here are my other sections with more information on my subsystem. <br>
+For my block diagram, see [Block Diagram.](https://cottagefox.github.io/EGR314DataSheet/02-Block-Diagram/Block-Diagram/) <br>
