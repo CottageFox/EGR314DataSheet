@@ -51,10 +51,11 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 
 ### Table 4: 3.3V 1.5A Switching Power Supply
+ To be determined <br>
 
 | Component | Pros | Cons |
 |---------|------|------|
-| e | e | e |
+| - | - | - |
 
 
 
