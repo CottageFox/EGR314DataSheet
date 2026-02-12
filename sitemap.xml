@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/03.5-Microcontroller%20Selection/03.5-Microcontroller-Selection/</loc>
+         <lastmod>2026-02-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/</loc>
          <lastmod>2026-02-12</lastmod>
          <changefreq>daily</changefreq>
