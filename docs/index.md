@@ -30,4 +30,7 @@ for<br>
 
 ### Other Links
 Here are my other sections with more information on my subsystem. <br>
-For my block diagram, see [Block Diagram.](https://cottagefox.github.io/EGR314DataSheet/02-Block-Diagram/Block-Diagram/) <br>
+For my Block Diagram, see [Block Diagram.](https://cottagefox.github.io/EGR314DataSheet/02-Block-Diagram/Block-Diagram/) <br>
+For my Component Selection, see [Component Selection.](https://cottagefox.github.io/EGR314DataSheet/03-Component-Selection/Component-Selection/) <br>
+For my Microcontroller Selection, see [Microcontroller Selection.](https://cottagefox.github.io/EGR314DataSheet/03.5-Microcontroller%20Selection/03.5-Microcontroller-Selection/) <br> 
+For my Power Budget, see [Power Budget.](https://cottagefox.github.io/EGR314DataSheet/03.6-Power-Budget/03.6-Power-Budget/) <br> 
