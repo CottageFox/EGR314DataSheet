@@ -10,5 +10,6 @@ This block diagram is for my specific module for Team 301's project. My module i
 
 ## Block Diagram 
 
-<img width="931" height="921" alt="Individual Block Diagram BW drawio (1)" src="https://github.com/user-attachments/assets/bcfb3f12-9579-4549-8708-1f40026e468d" />
+<img width="921" height="771" alt="314 Individual Block Diagram BW drawio" src="https://github.com/user-attachments/assets/4ae1135e-8052-4be2-8b6b-099162bf5ce9" />
+
 
