@@ -3,7 +3,6 @@ title: Module's Selected Major Components
 ---
 
 ## Module's Selected Major Components
-Have not decided yet
 
 The following sections are the selected major components necessary for  .....
 
@@ -30,11 +29,12 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 | Component | Pros | Cons |
 |---------|------|------|
+|  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/606ccb0f-e37b-4324-836b-c4fcbfb50ea0" />  <br> -Choice 3 <br> -12-V, 1.76-A BRUSHED DC MOTOR DR <br> 	-Texas Instruments <br> -[Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8210DRLR/15286847) <br> -[Datasheet](https://www.ti.com/lit/ds/symlink/drv8210.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1770877680405) | -Cheapest  <br> -Protection features <br> -Has CAD file | -Only for DC brushed motors <br> -Under 12V |
 |  ![motor driver 1 image](https://github.com/user-attachments/assets/800e2dc6-bd3f-4044-a155-cdac0d122942) <br> -Choice 1 <br> -IFX9201SGAUMA1 <br> - Infineon Technologies <br> $3.55/each <br> -[Link](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542) <br> -[Datasheet](https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf) | -Used in class before <br> -Has CAD model <br> -Has High Voltage and Current Intake | -No reverse polarity protection <br> -Current has wide tolerance |
 |  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/63ffbf3b-72db-4a41-874d-3367f02622ed" />    <br>  -Choice 2 <br>  -IC BRUSHED MOTOR DRVR 8TSSOP <br>   	-Toshiba Semiconductor and Storage <br> -$0.83/each <br> -[Link](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB67H450AFNG-EL/15995284) <br> -[Datasheet](https://toshiba.semicon-storage.com/info/TB67H450AFNG_datasheet_en_20250730.pdf?did=70454&prodName=TB67H450AFNG) | -Inexpensive <br> -High Voltage & Current intake <br> -Has CAD file | -Only for DC brushed motors <br> -Sensitive thermal conditions  | 
-|  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/606ccb0f-e37b-4324-836b-c4fcbfb50ea0" />  <br> -Choice 3 <br> -12-V, 1.76-A BRUSHED DC MOTOR DR <br> 	-Texas Instruments <br> -[Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8210DRLR/15286847) <br> -[Datasheet](https://www.ti.com/lit/ds/symlink/drv8210.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1770877680405) | -Cheapest  <br> -Protection features <br> -Has CAD file | -Only for DC brushed motors <br> -Under 12V |
 
-**Rationale:** Choice 1. We have used this motor driver in class and know how it works. It works with 12V and 3.3V logic. Choice 2 is a close second but it does not have SPI.
+
+**Rationale:** Choice 2. We have used this motor driver in class and know how it works. It works with 12V and 3.3V logic. Choice 3 is a close second but it does not have SPI.
 
 
 ### Table 2: DC Motor
@@ -45,15 +45,18 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 | <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5d55a898-66d3-45e2-bcfa-d092ef51ee8b" /> <br> -Choice 2 <br> -GEARMOTOR 35 RPM 12V MICRO METAL <br> 	-Pololu <br> $37.95 <br> -[Link](https://www.digikey.com/en/products/detail/pololu/3046/10450048) <br> -[Datasheet](https://www.pololu.com/file/0J1487/pololu-micro-metal-gearmotors-rev-6-1.pdf) | -Uses 12V <br> -High torque <br> -2-wire connection | -High power <br> -Needs a custom footprint <br> -May be too slow |
 | <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b3d44045-bbae-4623-bf88-854a9ccc35e4" />  <br> -Choice 3 <br> -GEARMOTOR 220 RPM 12V MICR METAL <br> -Pololu <br> -$26.45 <br> -[Link](https://www.digikey.com/en/products/detail/pololu/3042/10450044) <br> -[Datasheet](https://www.pololu.com/file/0J1487/pololu-micro-metal-gearmotors-rev-6-1.pdf) | -Steady speed <br> -2-wire connection <br> -Uses 12V | -Might be not enough torque/not fast enough <br> -May not be suitable for a drive train <br> -Needs a custom footprint |
 
-**Rationale:** Choice 3. This motor has a good amount of speed and torque, and uses 12V, that it should be able to run our drive train well. 
+**Rationale:** Choice 3. This motor has a good amount of speed and torque, and uses 12V. It should be able to run our drive train well. 
 
 
 ### Table 3: 3.3V 1.5A Switching Power Supply
- To be determined <br>
 
 | Component | Pros | Cons |
 |---------|------|------|
-| - | - | - |
+|  ![voltage regulator 1 image](https://github.com/user-attachments/assets/67e88408-743a-4dd5-a2a1-1fc76e15410c)  <br> -Choice 1 <br> -LM2575-3.3WU-TR <br> 	-onsemi <br> -$2.16/each <br> -[Link](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688) <br> -[Datasheet](https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf) | -Inexpensive <br> -Have used in class before <br> -Wide input voltage range <br>  | -Lower switching frequency <br> -Larger footprint |
+|  <img width="247" height="263" alt="voltage regulator 2 image" src="https://github.com/user-attachments/assets/431471ee-191a-4516-a89a-304516a37409" />  <br> -Choice 2 <br> -LM2575D2T-3.3R4G <br> 	-Microchip Technology <br> -$1.75/each <br> -[Link](https://www.digikey.com/en/products/detail/microchip-technology/LM2575-3-3WU-TR/1027646) <br> -[Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf) | -Cheapest <br> -High switching frequency | -Low output current <br> -Requires a feedforward capacitor for high voltages |
+|   <img width="317" height="247" alt="voltage regulator 3 image" src="https://github.com/user-attachments/assets/6b81857b-0ef6-4a56-803a-eafe0e998f46" />  <br> -Choice 3 <br> -LM2594MX-3.3/NOPB <br> 	-Texas Instruments <br> -$3.97/each <br> -[Link](https://www.digikey.com/en/products/detail/texas-instruments/LM2594MX-3-3-NOPB/366825) <br> -[Datasheet](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2594) | -Broad operating temperature range <br> -Lower thermal resistance | -Expensive <br> -More pins, bigger component <br> -Lower switching frequency |
+
+**Rationale:** Choice 1. We have used this voltage regulator before, so I know how to wire and use it. Choice 2 was close, however it has a low max current output, making choice 1 the best voltage regulator to pick.
 
 
 ### Table 4: 12V 2A AC-DC Wall Power Supply
