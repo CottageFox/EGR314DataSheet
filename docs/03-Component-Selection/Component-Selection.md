@@ -4,26 +4,24 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for  .....
-
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
+The following sections are the selected major components necessary for my part of our project.
 
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+| Component | Pros | Cons |
+|---------|------|------|
+|  ![voltage regulator 1 image](https://github.com/user-attachments/assets/67e88408-743a-4dd5-a2a1-1fc76e15410c)  <br> -Choice 1 <br> -LM2575-3.3WU-TR <br> 	-onsemi <br> -$2.16/each <br> -[Link](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688) <br> -[Datasheet](https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf) | -Inexpensive <br> -Have used in class before <br> -Wide input voltage range <br>  | -Lower switching frequency <br> -Larger footprint |
+| ![12V Wall Power 1](https://github.com/user-attachments/assets/851bcc5a-d03c-4438-b80b-d4cf19db04fa)     <br>  -Choice 1  <br> L6R24-120  <br> -Tri-Mag, LLC   <br> -$10.38/each   <br> -[Link](https://www.digikey.com/en/products/detail/tri-mag-llc/L6R24-120/7682639) <br> -[Datasheet](https://www.tri-mag.com/wp-content/uploads/2021/05/L6R24-L6R30_Series_2021-02.pdf) | -Inexpensive  <br> -Has less noise  <br> Average Efficiency | -The cord is short | 
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
 
-### Sensor
-
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
 
 ### Actuator
+| Component | Pros | Cons |
+|---------|------|------|
+|  ![motor driver 1 image](https://github.com/user-attachments/assets/800e2dc6-bd3f-4044-a155-cdac0d122942) <br> -Choice 1 <br> -IFX9201SGAUMA1 <br> - Infineon Technologies <br> $3.55/each <br> -[Link](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542) <br> -[Datasheet](https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf) | -Used in class before <br> -Has CAD model <br> -Has High Voltage and Current Intake | -No reverse polarity protection <br> -Current has wide tolerance |
+| <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b3d44045-bbae-4623-bf88-854a9ccc35e4" />  <br> -Choice 3 <br> -GEARMOTOR 220 RPM 12V MICR METAL <br> -Pololu <br> -$26.45 <br> -[Link](https://www.digikey.com/en/products/detail/pololu/3042/10450044) <br> -[Datasheet](https://www.pololu.com/file/0J1487/pololu-micro-metal-gearmotors-rev-6-1.pdf) | -Steady speed <br> -2-wire connection <br> -Uses 12V | -Might be not enough torque/not fast enough <br> -May not be suitable for a drive train <br> -Needs a custom footprint |
 
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
-
+## Finding Different Components
 
 ### Table 1: Motor Driver
 
