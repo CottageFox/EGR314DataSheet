@@ -26,29 +26,18 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 (**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
 
 
-### Table 1: Hall Effect Sensor
+### Table 1: Motor Driver
 
 | Component | Pros | Cons |
 |---------|------|------|
-|  ![Hall Effect Sensor 1](https://github.com/user-attachments/assets/d7a010bf-4280-4f01-a04b-e3f10b7f98b4)  <br> -Choice 1  <br> -AS5600-ASOM  <br> -ams-OSRAM USA INC.  <br>  -$3.17/each  <br> -[Link](https://www.digikey.com/en/products/detail/ams-osram/AS5600-ASOM/4914332) <br> -[Datasheet](https://www.digikey.com/html/datasheets/productinfo/1647438/0/0/1/as5600-datasheet.pdf) | -Have worked with this before <br> -More output modes | -Hard to work with  <br> -Has more pins, harder to wire  <br> -Most Expensive |
-|  ![Hall Effect Sensor 2](https://github.com/user-attachments/assets/28da5486-a231-4f36-b95a-c55579f82a12)   <br>  -Choice 2  <br> -TMAG5273 Low-Power Linear 3D Hall-Effect Sensor  <br> -Texas Instruments  <br> -$1.24/each  <br>  -[Link](https://www.mouser.com/ProductDetail/Texas-Instruments/TMAG5273D1QDBVR?q=IKkN%2F947nDf5iy%252BbYuEbTg%3D%3D) <br> -[Datasheet](https://www.ti.com/lit/ds/symlink/tmag5273.pdf?ts=1770822612850&ref_url=https%253A%252F%252Fapp.ultralibrarian.com%252F) | -Has fewer pins, so it’s easier to wire  <br> -Inexpensive  <br> -Easily integrates with PIC MCU  <br> -Very low Power | -Magnetic Sensitivity  <br> -Less output modes |
-|  ![Hall Effect Sensor 3](https://github.com/user-attachments/assets/e3df8eee-b0c7-499a-b3e3-261530e28e23)     <br> -Choice 3  <br> -TLE5009  <br> -Infineon Technologies  <br> -$2.73/each  <br> -[Link](https://www.mouser.com/ProductDetail/Infineon-Technologies/TLE5009-E20102qs=%252BwNEOWq1JvGhyLjFiYi7Q%3D%3D) <br> -[Datasheet](https://www.mouser.com/datasheet/3/70/1Infineon-TLE5009_EXXXX-DataSheet-v01_01-EN.pdf) | -Low output current  <br> -Uses 3.3V and 5V | -Does not use I2C  <br> -Has more pins, harder to wire   <br> -More Expensive   <br> -Has no address |
-
-**Rationale:** Choice 2. This Hall Effect sensor is the best option because the wiring is easy, it integrates well with the PIC, and it requires very low power. Compared to choice 3, which lacks I2C compatibility, and choice 1, which is very hard to work with.
-
-
-### Table 2: Motor Driver
-
-| Component | Pros | Cons |
-|---------|------|------|
-|    <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/259d9ca6-6d01-4b70-9611-f4e3c30ed2c5" /> <br> -Choice 1 <br> -IC MTR DRV BIPLR 2.5-5.5V TSOT23 <br> 	-Monolithic Power Systems Inc. <br > -$0.83/each <br> -[Link](https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP6513LGJ-Z/7361426) <br> -[Datasheet](https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP6513LGJ-Z/)  | -Inexpensive <br> -Has CAD model <br> -Has short circuit protection | -Max Voltage supply is 5.5V <br> -Low Max Current <br> -More for small motors |
+|  ![motor driver 1 image](https://github.com/user-attachments/assets/800e2dc6-bd3f-4044-a155-cdac0d122942) <br> -Choice 1 <br> -IFX9201SGAUMA1 <br> - Infineon Technologies <br> $3.55/each <br> -[Link](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542) <br> -[Datasheet](https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf) | -Used in class before <br> -Has CAD model <br> -Has High Voltage and Current Intake | -No reverse polarity protection <br> -Current has wide tolerance |
 |  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/63ffbf3b-72db-4a41-874d-3367f02622ed" />    <br>  -Choice 2 <br>  -IC BRUSHED MOTOR DRVR 8TSSOP <br>   	-Toshiba Semiconductor and Storage <br> -$0.83/each <br> -[Link](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB67H450AFNG-EL/15995284) <br> -[Datasheet](https://toshiba.semicon-storage.com/info/TB67H450AFNG_datasheet_en_20250730.pdf?did=70454&prodName=TB67H450AFNG) | -Inexpensive <br> -High Voltage & Current intake <br> -Has CAD file | -Only for DC brushed motors <br> -Sensitive thermal conditions  | 
 |  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/606ccb0f-e37b-4324-836b-c4fcbfb50ea0" />  <br> -Choice 3 <br> -12-V, 1.76-A BRUSHED DC MOTOR DR <br> 	-Texas Instruments <br> -[Link](https://www.digikey.com/en/products/detail/texas-instruments/DRV8210DRLR/15286847) <br> -[Datasheet](https://www.ti.com/lit/ds/symlink/drv8210.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1770877680405) | -Cheapest  <br> -Protection features <br> -Has CAD file | -Only for DC brushed motors <br> -Under 12V |
 
-**Rationale:** Choice 2. This motor driver it is compatible with stepper and non stepper DC motors, and it can handle high current and voltage. While the other drivers can not supply 12V to a motor.
+**Rationale:** Choice 1. We have used this motor driver in class and know how it works. It works with 12V and 3.3V logic. Choice 2 is a close second but it does not have SPI.
 
 
-### Table 3: DC Motor
+### Table 2: DC Motor
 
 | Component | Pros | Cons |
 |---------|------|------|
@@ -59,7 +48,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 **Rationale:** Choice 3. This motor has a good amount of speed and torque, and uses 12V, that it should be able to run our drive train well. 
 
 
-### Table 4: 3.3V 1.5A Switching Power Supply
+### Table 3: 3.3V 1.5A Switching Power Supply
  To be determined <br>
 
 | Component | Pros | Cons |
@@ -67,7 +56,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 | - | - | - |
 
 
-### Table 5: 12V 2A AC-DC Wall Power Supply
+### Table 4: 12V 2A AC-DC Wall Power Supply
 
 | Component | Pros | Cons |
 |---------|------|------|
