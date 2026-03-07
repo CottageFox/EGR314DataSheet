@@ -1095,7 +1095,6 @@
   <h1>Module's Selected Major Components</h1>
 
 <h2 id="modules-selected-major-components">Module's Selected Major Components</h2>
-<p>Have not decided yet</p>
 <p>The following sections are the selected major components necessary for  .....</p>
 <blockquote>
 <p><strong>For each of the following sections, use <ins>one of the two styles</ins> given near the end. <em>REMOVE THIS NOTE</em></strong></p>
@@ -1119,6 +1118,11 @@
 </thead>
 <tbody>
 <tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/606ccb0f-e37b-4324-836b-c4fcbfb50ea0" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/606ccb0f-e37b-4324-836b-c4fcbfb50ea0"></a>  <br> -Choice 3 <br> -12-V, 1.76-A BRUSHED DC MOTOR DR <br>   -Texas Instruments <br> -<a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8210DRLR/15286847">Link</a> <br> -<a href="https://www.ti.com/lit/ds/symlink/drv8210.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1770877680405">Datasheet</a></td>
+<td>-Cheapest  <br> -Protection features <br> -Has CAD file</td>
+<td>-Only for DC brushed motors <br> -Under 12V</td>
+</tr>
+<tr>
 <td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/800e2dc6-bd3f-4044-a155-cdac0d122942" data-desc-position="bottom"><img alt="motor driver 1 image" src="https://github.com/user-attachments/assets/800e2dc6-bd3f-4044-a155-cdac0d122942"></a> <br> -Choice 1 <br> -IFX9201SGAUMA1 <br> - Infineon Technologies <br> $3.55/each <br> -<a href="https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542">Link</a> <br> -<a href="https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf">Datasheet</a></td>
 <td>-Used in class before <br> -Has CAD model <br> -Has High Voltage and Current Intake</td>
 <td>-No reverse polarity protection <br> -Current has wide tolerance</td>
@@ -1128,14 +1132,9 @@
 <td>-Inexpensive <br> -High Voltage &amp; Current intake <br> -Has CAD file</td>
 <td>-Only for DC brushed motors <br> -Sensitive thermal conditions</td>
 </tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/606ccb0f-e37b-4324-836b-c4fcbfb50ea0" data-desc-position="bottom"><img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/606ccb0f-e37b-4324-836b-c4fcbfb50ea0"></a>  <br> -Choice 3 <br> -12-V, 1.76-A BRUSHED DC MOTOR DR <br>   -Texas Instruments <br> -<a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8210DRLR/15286847">Link</a> <br> -<a href="https://www.ti.com/lit/ds/symlink/drv8210.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1770877680405">Datasheet</a></td>
-<td>-Cheapest  <br> -Protection features <br> -Has CAD file</td>
-<td>-Only for DC brushed motors <br> -Under 12V</td>
-</tr>
 </tbody>
 </table>
-<p><strong>Rationale:</strong> Choice 1. We have used this motor driver in class and know how it works. It works with 12V and 3.3V logic. Choice 2 is a close second but it does not have SPI.</p>
+<p><strong>Rationale:</strong> Choice 2. We have used this motor driver in class and know how it works. It works with 12V and 3.3V logic. Choice 3 is a close second but it does not have SPI.</p>
 <h3 id="table-2-dc-motor">Table 2: DC Motor</h3>
 <table>
 <thead>
@@ -1163,9 +1162,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Rationale:</strong> Choice 3. This motor has a good amount of speed and torque, and uses 12V, that it should be able to run our drive train well. </p>
+<p><strong>Rationale:</strong> Choice 3. This motor has a good amount of speed and torque, and uses 12V. It should be able to run our drive train well. </p>
 <h3 id="table-3-33v-15a-switching-power-supply">Table 3: 3.3V 1.5A Switching Power Supply</h3>
-<p>To be determined <br></p>
 <table>
 <thead>
 <tr>
@@ -1176,12 +1174,23 @@
 </thead>
 <tbody>
 <tr>
-<td>-</td>
-<td>-</td>
-<td>-</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/67e88408-743a-4dd5-a2a1-1fc76e15410c" data-desc-position="bottom"><img alt="voltage regulator 1 image" src="https://github.com/user-attachments/assets/67e88408-743a-4dd5-a2a1-1fc76e15410c"></a>  <br> -Choice 1 <br> -LM2575-3.3WU-TR <br>     -onsemi <br> -$2.16/each <br> -<a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688">Link</a> <br> -<a href="https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf">Datasheet</a></td>
+<td>-Inexpensive <br> -Have used in class before <br> -Wide input voltage range <br></td>
+<td>-Lower switching frequency <br> -Larger footprint</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/431471ee-191a-4516-a89a-304516a37409" data-desc-position="bottom"><img width="247" height="263" alt="voltage regulator 2 image" src="https://github.com/user-attachments/assets/431471ee-191a-4516-a89a-304516a37409"></a>  <br> -Choice 2 <br> -LM2575D2T-3.3R4G <br>   -Microchip Technology <br> -$1.75/each <br> -<a href="https://www.digikey.com/en/products/detail/microchip-technology/LM2575-3-3WU-TR/1027646">Link</a> <br> -<a href="https://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf">Datasheet</a></td>
+<td>-Cheapest <br> -High switching frequency</td>
+<td>-Low output current <br> -Requires a feedforward capacitor for high voltages</td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/6b81857b-0ef6-4a56-803a-eafe0e998f46" data-desc-position="bottom"><img width="317" height="247" alt="voltage regulator 3 image" src="https://github.com/user-attachments/assets/6b81857b-0ef6-4a56-803a-eafe0e998f46"></a>  <br> -Choice 3 <br> -LM2594MX-3.3/NOPB <br>     -Texas Instruments <br> -$3.97/each <br> -<a href="https://www.digikey.com/en/products/detail/texas-instruments/LM2594MX-3-3-NOPB/366825">Link</a> <br> -<a href="https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm2594">Datasheet</a></td>
+<td>-Broad operating temperature range <br> -Lower thermal resistance</td>
+<td>-Expensive <br> -More pins, bigger component <br> -Lower switching frequency</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Rationale:</strong> Choice 1. We have used this voltage regulator before, so I know how to wire and use it. Choice 2 was close, however it has a low max current output, making choice 1 the best voltage regulator to pick.</p>
 <h3 id="table-4-12v-2a-ac-dc-wall-power-supply">Table 4: 12V 2A AC-DC Wall Power Supply</h3>
 <table>
 <thead>
