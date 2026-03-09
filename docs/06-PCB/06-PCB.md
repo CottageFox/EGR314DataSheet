@@ -24,7 +24,7 @@ This is my PCB for my part of Team 301 project.
 **Figure 3:** PCB Both Layers
 
 ## Resources
-ZIP of Gerber files can be downloaded [here[(https://github.com/user-attachments/files/25830514/BryceWeber301.zip) <br>
+ZIP of Gerber files can be downloaded [here](https://github.com/user-attachments/files/25830514/BryceWeber301.zip) <br>
 ZIP of Kicad Project can be downloaded [here](https://github.com/user-attachments/files/25830516/EGR314_Project_BW.zip)
 
 
