@@ -11,11 +11,13 @@ This is my bill of materials, showing the cost of every item in my schematic. It
 
 ## Bill of Materials 
 
-<img width="2200" height="1700" alt="EGR 314 BOM - Sheet1" src="https://github.com/user-attachments/assets/1b4bccde-a50c-42d2-ba71-adfa088d90e3" />
+<img width="2200" height="1700" alt="EGR 314 BOM - Sheet1" src="https://github.com/user-attachments/assets/1882c098-39b7-4efd-81d7-eddcf1f7a912" />
+
 **Figure 01:** Bill of Materials
 
 
 ## Resouces
 
-The Bill of Materials as a PDF download is available [*here*](https://github.com/user-attachments/files/25813499/EGR.314.BOM.-.Sheet1.pdf)   <br>
-The Bill of Material as an Excell sheet is available [*here*](https://github.com/user-attachments/files/25813500/EGR.314.BOM.xlsx)
+The Bill of Materials as a PDF download is available [*here*](https://github.com/user-attachments/files/25830586/EGR.314.BOM.-.Sheet1.pdf)   <br>
+The Bill of Material as an Excell sheet is available [*here*](https://github.com/user-attachments/files/25830587/EGR.314.BOM.xlsx)
+
