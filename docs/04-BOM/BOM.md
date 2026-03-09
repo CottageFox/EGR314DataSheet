@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This is my bill of materials, showing the cost of every item in my schematic. It has the number of parts as well as the total cost of each item required for the system to work. The estimated total if I bought everything is $48.31, which is within budget of the class.
+This is my bill of materials, showing the cost of every item in my schematic. It has the number of parts as well as the total cost of each item required for the system to work. The estimated total if I bought everything is $48.86, which is within budget of the class.
 
 
 ## Bill of Materials 
