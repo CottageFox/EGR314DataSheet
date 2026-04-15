@@ -2,15 +2,6 @@
 title: API - Motor Subsystem (Bryce)
 ---
 
-## Message Structure
-
-B - Bryce <br>
-H - Hattie <br>
-T - Tim <br>
-F - Riley <br>
-W - Rylee <br> 
-E - Everyone <br>
-
 # API – Motor Driver (Node 0x02)
 
 **Owner:** Bryce (B)  
@@ -136,3 +127,13 @@ Sent when a motor fault occurs.
 > 0x06 CRC failure  
 > 0x07 Unsupported message  
 > 0x08 Resource busy  
+
+
+## Team Member Identifiers
+
+B - Bryce <br>
+H - Hattie <br>
+T - Tim <br>
+F - Riley <br>
+W - Rylee <br> 
+E - Everyone <br>
