@@ -1,5 +1,5 @@
 ---
-title: API
+title: API - Motor Subsystem (Bryce)
 ---
 
 ## Message Structure
@@ -11,7 +11,6 @@ F - Riley <br>
 W - Rylee <br> 
 E - Everyone <br>
 
-# API – Message Compliance Verification
 
 **Subsystem:** Motor Driver  
 **Node ID:** `0x02` (Bryce)  
