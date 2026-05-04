@@ -30,7 +30,27 @@ for<br>
 
 ### Other Links
 Here are my other sections with more information on my subsystem. <br>
+For my Module's Requirements, see [Requirements.](https://cottagefox.github.io/EGR314DataSheet/01-Requirements/Requirements/)
+<br>
 For my Block Diagram, see [Block Diagram.](https://cottagefox.github.io/EGR314DataSheet/02-Block-Diagram/Block-Diagram/) <br>
-For my Component Selection, see [Component Selection.](https://cottagefox.github.io/EGR314DataSheet/03-Component-Selection/Component-Selection/) <br>
-For my Microcontroller Selection, see [Microcontroller Selection.](https://cottagefox.github.io/EGR314DataSheet/03.5-Microcontroller%20Selection/03.5-Microcontroller-Selection/) <br> 
+For my Component Selection, see [Component Selection.](https://cottagefox.github.io/EGR314DataSheet/03-Component-Selection/Component-Selection/) 
+<br>
+For my Microcontroller Selection, see [Microcontroller Selection.](https://cottagefox.github.io/EGR314DataSheet/03.5-Microcontroller%20Selection/03.5-Microcontroller-Selection/) 
+<br> 
 For my Power Budget, see [Power Budget.](https://cottagefox.github.io/EGR314DataSheet/03.6-Power-Budget/03.6-Power-Budget/) <br> 
+For my Bill of materials, see [BOM.](https://cottagefox.github.io/EGR314DataSheet/04-BOM/BOM/)
+<br> 
+For my Schematic, see [Schematic.](https://cottagefox.github.io/EGR314DataSheet/05-Schematic/schematic/)
+<br> 
+For my PCB, see [PCB.](https://cottagefox.github.io/EGR314DataSheet/06-PCB/06-PCB/)
+<br> 
+For my API, see [API.](https://cottagefox.github.io/EGR314DataSheet/API/API/)
+<br> 
+For my Hardware V2.0, see [Hardware V2.0.]()
+<br> 
+For my Resources, see [Resources]()
+<br> 
+For my Reflection, see [Reflection.]()
+<br> 
+For my Appendix, see [Appendix.](https://cottagefox.github.io/EGR314DataSheet/Appendix/)
+
