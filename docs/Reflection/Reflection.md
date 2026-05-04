@@ -20,8 +20,8 @@ There are a lot of things that I have learned from this class as the project wen
 
 
 ## Recommendations for future students
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Work ahead, you might regret it if you fall behind.
+2. Ask for help, the professor and TA's will work with you, but only if you ask for it.
+3. Pay attention in class, the information that is given is very useful, and may only be said once or twice.
+4. Work on the physical prototype early, like when you order your parts, because you will not have a lot of time in the end of the class to do it.
+5. Ask someone to check that your design is good and makes sense before you order your parts. It may be too late when you realize that you ordered something too small, or may be very hard to work with.
