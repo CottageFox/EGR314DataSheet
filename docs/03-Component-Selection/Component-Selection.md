@@ -6,6 +6,8 @@ title: Module's Selected Major Components
 
 The following sections are the selected major components necessary for my part of our project.
 
+
+
 ### Power Management
 
 | Component | Pros | Cons |
@@ -67,7 +69,25 @@ The following sections are the selected major components necessary for my part o
 
 **Rationale:** Choice 1. This power supply has low output noise and is not too expensive. The other power supplies are around the same, but choice 2 has more noise, and choice 3 is overkill, as it is for medical devices.
 
+## ESP32 Pin Configuration
 
+| Pin | Signal | Direction | Protocol | Description |
+|-----|--------|-----------|----------|-------------|
+| 43  | TX     | Output    | UART2    | UART Transmit |
+| 44  | RX     | Input     | UART2    | UART Receive |
+| 6   | LED    | Output    | GPIO     | Debug LED |
+| 5   | BTN    | Input     | GPIO     | Debug Button |
+| 12  | SCK    | Output    | SPI2     | Motor Driver SPI Clock |
+| 11  | MOSI   | Output    | SPI2     | Motor Driver SPI Data Out |
+| 13  | MISO   | Input     | SPI2     | Motor Driver SPI Data In |
+| 14  | CS     | Output    | SPI2     | Motor Driver Chip Select (active low) |
+| 15  | DIS    | Output    | GPIO     | Motor Driver Disable |
+| 16  | PWM    | Output    | GPIO     | Motor Driver PWM Speed Control |
+| 10  | DIR    | Output    | GPIO     | Motor Driver Direction |
+| 1   | DS_1   | Output    | GPIO     | Downstream Header Pin 1 |
+| 2   | DS_2   | Output    | GPIO     | Downstream Header Pin 2 |
+| 41  | US_1   | Input     | GPIO     | Upstream Header Pin 1   |
+| 42  | US_2   | Input     | GPIO     | Upstream Header Pin 2   |
 
 
 
