@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6"> Bryce Weber Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> MEG</font><br>
 for<br>
 <font size= "5"> Team 301 </font><br>
 
@@ -46,11 +46,11 @@ For my PCB, see [PCB.](https://cottagefox.github.io/EGR314DataSheet/06-PCB/06-PC
 <br> 
 For my API, see [API.](https://cottagefox.github.io/EGR314DataSheet/API/API/)
 <br> 
-For my Hardware V2.0, see [Hardware V2.0.]()
+For my Hardware V2.0, see [Hardware V2.0.](https://cottagefox.github.io/EGR314DataSheet/Hardware%20V2.0/Hardware%20V2.0/)
 <br> 
-For my Resources, see [Resources]()
+For my Resources, see [Resources](https://cottagefox.github.io/EGR314DataSheet/Resources/Resources/)
 <br> 
-For my Reflection, see [Reflection.]()
+For my Reflection, see [Reflection.](https://cottagefox.github.io/EGR314DataSheet/Reflection/Reflection/)
 <br> 
 For my Appendix, see [Appendix.](https://cottagefox.github.io/EGR314DataSheet/Appendix/)
 
