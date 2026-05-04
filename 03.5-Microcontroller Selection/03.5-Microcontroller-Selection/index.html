@@ -788,6 +788,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#esp32-pin-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32 Pin Configuration
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1261,6 +1270,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#esp32-pin-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32 Pin Configuration
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1301,7 +1319,126 @@
 </tr>
 </tbody>
 </table>
-<p>I will be using 1 SPI subsystem with 4 pins.</p>
+<p>I will be using SPI subsystem for my motor driver, UART to talk with my teamates, and GPIO to use all my other pins.</p>
+<h2 id="esp32-pin-configuration">ESP32 Pin Configuration</h2>
+<table>
+<thead>
+<tr>
+<th>Pin</th>
+<th>Signal</th>
+<th>Direction</th>
+<th>Protocol</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>43</td>
+<td>TX</td>
+<td>Output</td>
+<td>UART2</td>
+<td>UART Transmit</td>
+</tr>
+<tr>
+<td>44</td>
+<td>RX</td>
+<td>Input</td>
+<td>UART2</td>
+<td>UART Receive</td>
+</tr>
+<tr>
+<td>6</td>
+<td>LED</td>
+<td>Output</td>
+<td>GPIO</td>
+<td>Debug LED</td>
+</tr>
+<tr>
+<td>5</td>
+<td>BTN</td>
+<td>Input</td>
+<td>GPIO</td>
+<td>Debug Button</td>
+</tr>
+<tr>
+<td>12</td>
+<td>SCK</td>
+<td>Output</td>
+<td>SPI2</td>
+<td>Motor Driver SPI Clock</td>
+</tr>
+<tr>
+<td>11</td>
+<td>MOSI</td>
+<td>Output</td>
+<td>SPI2</td>
+<td>Motor Driver SPI Data Out</td>
+</tr>
+<tr>
+<td>13</td>
+<td>MISO</td>
+<td>Input</td>
+<td>SPI2</td>
+<td>Motor Driver SPI Data In</td>
+</tr>
+<tr>
+<td>14</td>
+<td>CS</td>
+<td>Output</td>
+<td>SPI2</td>
+<td>Motor Driver Chip Select (active low)</td>
+</tr>
+<tr>
+<td>15</td>
+<td>DIS</td>
+<td>Output</td>
+<td>GPIO</td>
+<td>Motor Driver Disable</td>
+</tr>
+<tr>
+<td>16</td>
+<td>PWM</td>
+<td>Output</td>
+<td>GPIO</td>
+<td>Motor Driver PWM Speed Control</td>
+</tr>
+<tr>
+<td>10</td>
+<td>DIR</td>
+<td>Output</td>
+<td>GPIO</td>
+<td>Motor Driver Direction</td>
+</tr>
+<tr>
+<td>1</td>
+<td>DS_1</td>
+<td>Output</td>
+<td>GPIO</td>
+<td>Downstream Header Pin 1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>DS_2</td>
+<td>Output</td>
+<td>GPIO</td>
+<td>Downstream Header Pin 2</td>
+</tr>
+<tr>
+<td>41</td>
+<td>US_1</td>
+<td>Input</td>
+<td>GPIO</td>
+<td>Upstream Header Pin 1</td>
+</tr>
+<tr>
+<td>42</td>
+<td>US_2</td>
+<td>Input</td>
+<td>GPIO</td>
+<td>Upstream Header Pin 2</td>
+</tr>
+</tbody>
+</table>
 
 
 
