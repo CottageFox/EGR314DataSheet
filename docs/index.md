@@ -16,19 +16,19 @@ for<br>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+This is my datasheet for my team's project. I am one of the motor modules, as we have 2 of them.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://asu-egr314-301-s-2026.github.io/EGR314-Team301/)
+Our project is to build an exploration rover, that will have different modules that work together to accomplish our goal. We have 5 members and 5 modules. There is a controller/wi-fi module, 2 sensor modules, and 2 motor modules. The two motor modules were to control a set of wheels on each side of our rover, and it would connect to the front wheels with tank treads. My work will contribute to our overall success by alowing our rover to move when given the input to do so. I will also be able to pass on a message to another team member if my system does not identify that it is for me. To see my team's datasheet and other teamate's datasheets, click [*here.*](https://asu-egr314-301-s-2026.github.io/EGR314-Team301/)
+
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+I have contributed to this project by creating a successful motor module. I am able to recieve a message and control my motor with it. If need be I could connect to another team's project and my motor would still work. That was the goal of this project, we each have a seperate part, and could be used in another project if we had to.
 
-### Other Links
+
+### Datasheet Links
 Here are my other sections with more information on my subsystem. <br>
 For my Module's Requirements, see [Requirements.](https://cottagefox.github.io/EGR314DataSheet/01-Requirements/Requirements/)
 <br>
