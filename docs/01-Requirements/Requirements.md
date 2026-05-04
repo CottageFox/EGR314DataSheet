@@ -7,7 +7,7 @@ This table shows the requirements for my module of our system, one side of the d
 
 | **Requirement<br>Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
-| Surface mounted, 3.3V switching power regulatore | 3.2 Volts | 3.3 Volts | No |
+| Surface mounted, 3.3V switching power regulator | 3.2 Volts | 3.3 Volts | No |
 | Surface mounted microcontroller | 1 PIC or ESP | ESP32 | No |
 | Wireless Communication | Able to send or receive a Wi-Fi data | Send and receive Wi-Fi Data to MQTT | Yes |
 | DC Motor | Able to move our robot | Has enough torque to move the robot | No |
