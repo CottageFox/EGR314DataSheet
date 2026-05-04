@@ -12,6 +12,5 @@ This table shows the requirements for my module of our system, one side of the d
 | Wireless Communication | Able to send or receive a Wi-Fi data | Send and receive Wi-Fi Data to MQTT | Yes |
 | DC Motor | Able to move our robot | Has enough torque to move the robot | No |
 | Motor Driver | Able to control the speed of the motor | Control the speed of the motor and move it forwards and backwards | No |
-| Hall Effect Sensor | Able to track information about the motor | Send information about the motor (IE: Speed, Posiotion, Displacement) to the microcontroller | No |
 | LED | Tell the user what is going on | Lights up when an error occurs, or when everything is running good | Yes |
 | Battery | Output power and last a while | Output 9 or 12V (depending on the motor requirements), and last for at least 10 minutes | No |
