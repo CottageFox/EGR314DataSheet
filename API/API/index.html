@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api-motor-driver-node-0x02" class="md-skip">
+        <a href="#api-motor-driver-node-bryce" class="md-skip">
           Skip to content
         </a>
       
@@ -1014,28 +1014,97 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#messages-received" class="md-nav__link">
+  <a href="#packet-frame-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Messages Received
+      Packet Frame Structure
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Messages Received">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-member-identifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Member Identifiers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-received-direct-dst-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages Received (Direct — dst = B)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Received (Direct — dst = B)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#0x0001-set-motor-speed" class="md-nav__link">
+  <a href="#fwd-drive-motor-forward" class="md-nav__link">
     <span class="md-ellipsis">
-      0x0001 — Set Motor Speed
+      FWD — Drive Motor Forward
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#0x0002-request-telemetry" class="md-nav__link">
+  <a href="#rev-drive-motor-reverse" class="md-nav__link">
     <span class="md-ellipsis">
-      0x0002 — Request Telemetry
+      REV — Drive Motor Reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-stop-motor" class="md-nav__link">
+    <span class="md-ellipsis">
+      STOP — Stop Motor
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-received-broadcast-dst-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages Received (Broadcast — dst = X)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Received (Broadcast — dst = X)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fwd-broadcast-forward" class="md-nav__link">
+    <span class="md-ellipsis">
+      FWD — Broadcast Forward
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rev-broadcast-reverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      REV — Broadcast Reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-broadcast-stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      STOP — Broadcast Stop
     </span>
   </a>
   
@@ -1057,27 +1126,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#0x0003-telemetry-packet" class="md-nav__link">
+  <a href="#ack-acknowledgement" class="md-nav__link">
     <span class="md-ellipsis">
-      0x0003 — Telemetry Packet
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#0x0004-ack" class="md-nav__link">
-    <span class="md-ellipsis">
-      0x0004 — ACK
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#0x0005-error-event-log" class="md-nav__link">
-    <span class="md-ellipsis">
-      0x0005 — Error / Event Log
+      ACK — Acknowledgement
     </span>
   </a>
   
@@ -1089,9 +1140,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#team-member-identifiers" class="md-nav__link">
+  <a href="#error-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      Team Member Identifiers
+      Error Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-forwarding-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Forwarding Rules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failsafe-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Failsafe Behavior
     </span>
   </a>
   
@@ -1334,28 +1412,97 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#messages-received" class="md-nav__link">
+  <a href="#packet-frame-structure" class="md-nav__link">
     <span class="md-ellipsis">
-      Messages Received
+      Packet Frame Structure
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Messages Received">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-member-identifiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Member Identifiers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-received-direct-dst-b" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages Received (Direct — dst = B)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Received (Direct — dst = B)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#0x0001-set-motor-speed" class="md-nav__link">
+  <a href="#fwd-drive-motor-forward" class="md-nav__link">
     <span class="md-ellipsis">
-      0x0001 — Set Motor Speed
+      FWD — Drive Motor Forward
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#0x0002-request-telemetry" class="md-nav__link">
+  <a href="#rev-drive-motor-reverse" class="md-nav__link">
     <span class="md-ellipsis">
-      0x0002 — Request Telemetry
+      REV — Drive Motor Reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-stop-motor" class="md-nav__link">
+    <span class="md-ellipsis">
+      STOP — Stop Motor
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messages-received-broadcast-dst-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      Messages Received (Broadcast — dst = X)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages Received (Broadcast — dst = X)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fwd-broadcast-forward" class="md-nav__link">
+    <span class="md-ellipsis">
+      FWD — Broadcast Forward
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rev-broadcast-reverse" class="md-nav__link">
+    <span class="md-ellipsis">
+      REV — Broadcast Reverse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stop-broadcast-stop" class="md-nav__link">
+    <span class="md-ellipsis">
+      STOP — Broadcast Stop
     </span>
   </a>
   
@@ -1377,27 +1524,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#0x0003-telemetry-packet" class="md-nav__link">
+  <a href="#ack-acknowledgement" class="md-nav__link">
     <span class="md-ellipsis">
-      0x0003 — Telemetry Packet
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#0x0004-ack" class="md-nav__link">
-    <span class="md-ellipsis">
-      0x0004 — ACK
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#0x0005-error-event-log" class="md-nav__link">
-    <span class="md-ellipsis">
-      0x0005 — Error / Event Log
+      ACK — Acknowledgement
     </span>
   </a>
   
@@ -1409,9 +1538,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#team-member-identifiers" class="md-nav__link">
+  <a href="#error-handling" class="md-nav__link">
     <span class="md-ellipsis">
-      Team Member Identifiers
+      Error Handling
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-forwarding-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Forwarding Rules
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failsafe-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Failsafe Behavior
     </span>
   </a>
   
@@ -1440,26 +1596,116 @@
   
 
 
-<h1 id="api-motor-driver-node-0x02">API – Motor Driver (Node 0x02)</h1>
-<p><strong>Owner:</strong> Bryce (B)<br>
+<h1 id="api-motor-driver-node-bryce">API – Motor Driver Node (Bryce)</h1>
+<p><strong>Owner:</strong> Bryce<br>
+<strong>Node ID:</strong> <code>B</code> (ASCII <code>0x42</code>)<br>
 <strong>Subsystem:</strong> Motor Driver<br>
-<strong>Node ID:</strong> <code>0x02</code><br>
-<strong>Protocol:</strong> Team 301 (Big-endian)</p>
+<strong>Language:</strong> MicroPython (ESP32)<br>
+<strong>Protocol:</strong> Team daisy-chain UART, 9600 baud, 64-byte fixed frames</p>
 <hr>
-<h2 id="messages-received">Messages Received</h2>
-<hr>
-<h3 id="0x0001-set-motor-speed"><code>0x0001</code> — Set Motor Speed</h3>
-<p><strong>From:</strong> Riley (F) or upstream<br>
-<strong>To:</strong> Bryce (B)<br>
-<strong>Type:</strong> <span class="tag recv">Receive</span></p>
-<p>Command to set motor speed and direction.</p>
+<h2 id="packet-frame-structure">Packet Frame Structure</h2>
+<p>All messages use a <strong>64-byte fixed-length frame</strong> on the UART daisy chain. The message payload (bytes 4–61) carries an ASCII string command. Unused payload bytes are padded with <code>0x00</code>.</p>
 <table>
 <thead>
 <tr>
 <th>Byte(s)</th>
 <th>Field</th>
 <th>Type</th>
-<th>Bytes</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0–1</td>
+<td><code>prefix</code></td>
+<td><code>char[2]</code></td>
+<td><code>AZ</code> (always)</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>src_id</code></td>
+<td><code>uint8_t</code></td>
+<td>Sender's ASCII ID (e.g. <code>B</code> = <code>0x42</code>)</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>dst_id</code></td>
+<td><code>uint8_t</code></td>
+<td>Destination ASCII ID (e.g. <code>B</code>, <code>X</code>)</td>
+</tr>
+<tr>
+<td>4–61</td>
+<td><code>message</code></td>
+<td><code>char[58]</code></td>
+<td>ASCII command string, null-padded</td>
+</tr>
+<tr>
+<td>62–63</td>
+<td><code>suffix</code></td>
+<td><code>char[2]</code></td>
+<td><code>BY</code> (always)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example frame (hex):</strong> <code>41 5A 57 42 46 57 44 00 ... 42 59</code><br>
+→ From <code>W</code> (Rylee), To <code>B</code> (Bryce), Message = <code>"FWD"</code></p>
+<hr>
+<h2 id="team-member-identifiers">Team Member Identifiers</h2>
+<table>
+<thead>
+<tr>
+<th>ASCII Char</th>
+<th>Hex</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>W</code></td>
+<td><code>0x57</code></td>
+<td>Rylee</td>
+</tr>
+<tr>
+<td><code>B</code></td>
+<td><code>0x42</code></td>
+<td>Bryce <em>(this node)</em></td>
+</tr>
+<tr>
+<td><code>F</code></td>
+<td><code>0x46</code></td>
+<td>Riley</td>
+</tr>
+<tr>
+<td><code>T</code></td>
+<td><code>0x54</code></td>
+<td>Tim</td>
+</tr>
+<tr>
+<td><code>H</code></td>
+<td><code>0x48</code></td>
+<td>Hattie</td>
+</tr>
+<tr>
+<td><code>X</code></td>
+<td><code>0x58</code></td>
+<td>Everyone (Broadcast)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="messages-received-direct-dst-b">Messages Received (Direct — <code>dst = B</code>)</h2>
+<p>Messages addressed directly to Bryce (<code>dst = 'B'</code>). Upon receiving any valid direct message, this node <strong>automatically sends an <code>ACK</code></strong> back to the sender, then executes the command.</p>
+<hr>
+<h3 id="fwd-drive-motor-forward"><code>FWD</code> — Drive Motor Forward</h3>
+<p><strong>From:</strong> Any known team member<br>
+<strong>To:</strong> <code>B</code> (Bryce)</p>
+<p>Sets the motor driver to run in the <strong>forward</strong> direction.</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Variable Name</th>
+<th>C Type</th>
 <th>Min</th>
 <th>Max</th>
 <th>Example</th>
@@ -1467,89 +1713,54 @@
 </thead>
 <tbody>
 <tr>
-<td>4–5</td>
-<td><code>message_type</code></td>
-<td><code>uint16_t</code></td>
-<td>2</td>
-<td>0x0001</td>
-<td>0x0001</td>
-<td>0x0001</td>
+<td>4</td>
+<td><code>cmd[0]</code></td>
+<td><code>char</code></td>
+<td><code>F</code> (0x46)</td>
+<td><code>F</code> (0x46)</td>
+<td><code>F</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>cmd[1]</code></td>
+<td><code>char</code></td>
+<td><code>W</code> (0x57)</td>
+<td><code>W</code> (0x57)</td>
+<td><code>W</code></td>
 </tr>
 <tr>
 <td>6</td>
-<td><code>motor_id</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>1</td>
-<td>5</td>
-<td>1</td>
+<td><code>cmd[2]</code></td>
+<td><code>char</code></td>
+<td><code>D</code> (0x44)</td>
+<td><code>D</code> (0x44)</td>
+<td><code>D</code></td>
 </tr>
 <tr>
-<td>7</td>
-<td><code>speed_high</code></td>
+<td>7–61</td>
+<td><code>padding</code></td>
 <td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>255</td>
-<td>0</td>
-</tr>
-<tr>
-<td>8</td>
-<td><code>speed_low</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>255</td>
-<td>150</td>
-</tr>
-<tr>
-<td>9</td>
-<td><code>direction</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-</tr>
-<tr>
-<td>10</td>
-<td><code>control_flags</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>255</td>
-<td>0</td>
-</tr>
-<tr>
-<td>11–61</td>
-<td><code>reserved</code></td>
-<td><code>uint8_t[]</code></td>
-<td>51</td>
-<td>0</td>
-<td>0</td>
-<td>0x00…</td>
+<td>0x00</td>
+<td>0x00</td>
+<td>0x00</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
-<p><strong>Notes</strong>
-- Speed = <code>(speed_high &lt;&lt; 8) | speed_low</code>
-- Valid RPM: <strong>0–1000</strong>
-- <code>control_flags</code> undefined (team spec gap)</p>
+<p><strong>Action:</strong> Sets <code>dir_pin = 1</code>, enables driver (<code>dis = 0</code>), asserts <code>pwm_pin = 1</code>, turns LED on.<br>
+<strong>Response:</strong> Sends <code>ACK</code> to sender.</p>
 </blockquote>
 <hr>
-<h3 id="0x0002-request-telemetry"><code>0x0002</code> — Request Telemetry</h3>
-<p><strong>From:</strong> Riley (F)<br>
-<strong>To:</strong> Everyone (E)<br>
-<strong>Type:</strong> <span class="tag recv">Receive (Broadcast)</span></p>
-<p>Requests telemetry data from all nodes.</p>
+<h3 id="rev-drive-motor-reverse"><code>REV</code> — Drive Motor Reverse</h3>
+<p><strong>From:</strong> Any known team member<br>
+<strong>To:</strong> <code>B</code> (Bryce)</p>
+<p>Sets the motor driver to run in the <strong>reverse</strong> direction.</p>
 <table>
 <thead>
 <tr>
 <th>Byte(s)</th>
-<th>Field</th>
-<th>Type</th>
-<th>Bytes</th>
+<th>Variable Name</th>
+<th>C Type</th>
 <th>Min</th>
 <th>Max</th>
 <th>Example</th>
@@ -1557,63 +1768,233 @@
 </thead>
 <tbody>
 <tr>
-<td>4–5</td>
-<td><code>message_type</code></td>
-<td><code>uint16_t</code></td>
-<td>2</td>
-<td>0x0002</td>
-<td>0x0002</td>
-<td>0x0002</td>
+<td>4</td>
+<td><code>cmd[0]</code></td>
+<td><code>char</code></td>
+<td><code>R</code> (0x52)</td>
+<td><code>R</code> (0x52)</td>
+<td><code>R</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>cmd[1]</code></td>
+<td><code>char</code></td>
+<td><code>E</code> (0x45)</td>
+<td><code>E</code> (0x45)</td>
+<td><code>E</code></td>
 </tr>
 <tr>
 <td>6</td>
-<td><code>telemetry_mask</code></td>
+<td><code>cmd[2]</code></td>
+<td><code>char</code></td>
+<td><code>V</code> (0x56)</td>
+<td><code>V</code> (0x56)</td>
+<td><code>V</code></td>
+</tr>
+<tr>
+<td>7–61</td>
+<td><code>padding</code></td>
 <td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>255</td>
-<td>0x1F</td>
+<td>0x00</td>
+<td>0x00</td>
+<td>0x00</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Action:</strong> Sets <code>dir_pin = 0</code>, enables driver (<code>dis = 0</code>), asserts <code>pwm_pin = 1</code>, turns LED on.<br>
+<strong>Response:</strong> Sends <code>ACK</code> to sender.</p>
+</blockquote>
+<hr>
+<h3 id="stop-stop-motor"><code>STOP</code> — Stop Motor</h3>
+<p><strong>From:</strong> Any known team member<br>
+<strong>To:</strong> <code>B</code> (Bryce)</p>
+<p>Halts the motor and disables the driver output.</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Variable Name</th>
+<th>C Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td><code>cmd[0]</code></td>
+<td><code>char</code></td>
+<td><code>S</code> (0x53)</td>
+<td><code>S</code> (0x53)</td>
+<td><code>S</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>cmd[1]</code></td>
+<td><code>char</code></td>
+<td><code>T</code> (0x54)</td>
+<td><code>T</code> (0x54)</td>
+<td><code>T</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>cmd[2]</code></td>
+<td><code>char</code></td>
+<td><code>O</code> (0x4F)</td>
+<td><code>O</code> (0x4F)</td>
+<td><code>O</code></td>
 </tr>
 <tr>
 <td>7</td>
-<td><code>timeout_sec</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>1</td>
-<td>255</td>
-<td>5</td>
+<td><code>cmd[3]</code></td>
+<td><code>char</code></td>
+<td><code>P</code> (0x50)</td>
+<td><code>P</code> (0x50)</td>
+<td><code>P</code></td>
 </tr>
 <tr>
 <td>8–61</td>
-<td><code>reserved</code></td>
-<td><code>uint8_t[]</code></td>
-<td>54</td>
-<td>0</td>
-<td>0</td>
-<td>0x00…</td>
+<td><code>padding</code></td>
+<td><code>uint8_t</code></td>
+<td>0x00</td>
+<td>0x00</td>
+<td>0x00</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
-<p><strong>Notes</strong>
-- bit4 = Motor RPM<br>
-- Only responds if bit4 is set  </p>
+<p><strong>Action:</strong> Deasserts <code>pwm_pin = 0</code>, disables driver (<code>dis = 1</code>), turns LED off.<br>
+<strong>Response:</strong> Sends <code>ACK</code> to sender.</p>
+</blockquote>
+<hr>
+<h2 id="messages-received-broadcast-dst-x">Messages Received (Broadcast — <code>dst = X</code>)</h2>
+<p>Broadcast messages are addressed to <code>X</code> (Everyone). This node <strong>acts on them</strong> and then <strong>forwards the packet</strong> down the daisy chain.</p>
+<hr>
+<h3 id="fwd-broadcast-forward"><code>FWD</code> — Broadcast Forward</h3>
+<p><strong>From:</strong> Any known team member<br>
+<strong>To:</strong> <code>X</code> (Everyone)</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Variable Name</th>
+<th>C Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4–6</td>
+<td><code>cmd</code></td>
+<td><code>char[3]</code></td>
+<td>—</td>
+<td>—</td>
+<td><code>FWD</code></td>
+</tr>
+<tr>
+<td>7–61</td>
+<td><code>padding</code></td>
+<td><code>uint8_t</code></td>
+<td>0x00</td>
+<td>0x00</td>
+<td>0x00</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Action:</strong> Same as direct <code>FWD</code>. Then forwards the original packet unchanged.</p>
+</blockquote>
+<hr>
+<h3 id="rev-broadcast-reverse"><code>REV</code> — Broadcast Reverse</h3>
+<p><strong>From:</strong> Any known team member<br>
+<strong>To:</strong> <code>X</code> (Everyone)</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Variable Name</th>
+<th>C Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4–6</td>
+<td><code>cmd</code></td>
+<td><code>char[3]</code></td>
+<td>—</td>
+<td>—</td>
+<td><code>REV</code></td>
+</tr>
+<tr>
+<td>7–61</td>
+<td><code>padding</code></td>
+<td><code>uint8_t</code></td>
+<td>0x00</td>
+<td>0x00</td>
+<td>0x00</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Action:</strong> Same as direct <code>REV</code>. Then forwards the original packet unchanged.</p>
+</blockquote>
+<hr>
+<h3 id="stop-broadcast-stop"><code>STOP</code> — Broadcast Stop</h3>
+<p><strong>From:</strong> Any known team member<br>
+<strong>To:</strong> <code>X</code> (Everyone)</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Variable Name</th>
+<th>C Type</th>
+<th>Min</th>
+<th>Max</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4–7</td>
+<td><code>cmd</code></td>
+<td><code>char[4]</code></td>
+<td>—</td>
+<td>—</td>
+<td><code>STOP</code></td>
+</tr>
+<tr>
+<td>8–61</td>
+<td><code>padding</code></td>
+<td><code>uint8_t</code></td>
+<td>0x00</td>
+<td>0x00</td>
+<td>0x00</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Action:</strong> Same as direct <code>STOP</code>. Then forwards the original packet unchanged.</p>
 </blockquote>
 <hr>
 <h2 id="messages-sent">Messages Sent</h2>
 <hr>
-<h3 id="0x0003-telemetry-packet"><code>0x0003</code> — Telemetry Packet</h3>
-<p><strong>From:</strong> Bryce (B)<br>
-<strong>To:</strong> Riley (F)<br>
-<strong>Type:</strong> <span class="tag send">Send</span></p>
-<p>Telemetry response containing motor status.</p>
+<h3 id="ack-acknowledgement"><code>ACK</code> — Acknowledgement</h3>
+<p><strong>From:</strong> <code>B</code> (Bryce)<br>
+<strong>To:</strong> Original sender of the command</p>
+<p>Sent automatically whenever a valid, correctly-addressed command is received.</p>
 <table>
 <thead>
 <tr>
 <th>Byte(s)</th>
-<th>Field</th>
-<th>Type</th>
-<th>Bytes</th>
+<th>Variable Name</th>
+<th>C Type</th>
 <th>Min</th>
 <th>Max</th>
 <th>Example</th>
@@ -1621,211 +2002,175 @@
 </thead>
 <tbody>
 <tr>
-<td>4–5</td>
-<td><code>message_type</code></td>
-<td><code>uint16_t</code></td>
-<td>2</td>
-<td>0x0003</td>
-<td>0x0003</td>
-<td></td>
+<td>4</td>
+<td><code>cmd[0]</code></td>
+<td><code>char</code></td>
+<td><code>A</code> (0x41)</td>
+<td><code>A</code> (0x41)</td>
+<td><code>A</code></td>
 </tr>
 <tr>
-<td>6–7</td>
-<td><code>distance_mm</code></td>
-<td><code>uint16_t</code></td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td></td>
+<td>5</td>
+<td><code>cmd[1]</code></td>
+<td><code>char</code></td>
+<td><code>C</code> (0x43)</td>
+<td><code>C</code> (0x43)</td>
+<td><code>C</code></td>
 </tr>
 <tr>
-<td>8</td>
-<td><code>motion</code></td>
+<td>6</td>
+<td><code>cmd[2]</code></td>
+<td><code>char</code></td>
+<td><code>K</code> (0x4B)</td>
+<td><code>K</code> (0x4B)</td>
+<td><code>K</code></td>
+</tr>
+<tr>
+<td>7–61</td>
+<td><code>padding</code></td>
 <td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td></td>
-</tr>
-<tr>
-<td>9–10</td>
-<td><code>temperature_tenths_c</code></td>
-<td><code>int16_t</code></td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td></td>
-</tr>
-<tr>
-<td>11–12</td>
-<td><code>motor_rpm</code></td>
-<td><code>uint16_t</code></td>
-<td>2</td>
-<td>0</td>
-<td>1000</td>
-<td>300</td>
-</tr>
-<tr>
-<td>13</td>
-<td><code>status_flags</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>7</td>
-<td></td>
-</tr>
-<tr>
-<td>14–61</td>
-<td><code>reserved</code></td>
-<td><code>uint8_t[]</code></td>
-<td>48</td>
-<td>0</td>
-<td>0</td>
-<td></td>
+<td>0x00</td>
+<td>0x00</td>
+<td>0x00</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
-<p><strong>Notes</strong>
-- bit0 = running<br>
-- bit1 = error<br>
-- bit2 = low battery  </p>
+<p><strong>Trigger:</strong> Sent in response to any valid direct message (<code>FWD</code>, <code>REV</code>, <code>STOP</code>, or any unrecognized command).<br>
+<strong>Note:</strong> ACK is sent even for unknown commands — the node acknowledges receipt, but motor state remains unchanged in that case.</p>
 </blockquote>
 <hr>
-<h3 id="0x0004-ack"><code>0x0004</code> — ACK</h3>
-<p><strong>From:</strong> Bryce (B)<br>
-<strong>To:</strong> Original sender<br>
-<strong>Type:</strong> <span class="tag send">Send</span></p>
-<p>Acknowledges successful command execution.</p>
+<h2 id="error-handling">Error Handling</h2>
 <table>
 <thead>
 <tr>
-<th>Byte(s)</th>
-<th>Field</th>
-<th>Type</th>
-<th>Bytes</th>
-<th>Min</th>
-<th>Max</th>
+<th>Error Condition</th>
+<th>Detection Method</th>
+<th>Action Taken</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>4–5</td>
-<td><code>message_type</code></td>
-<td><code>uint16_t</code></td>
-<td>2</td>
-<td>0x0004</td>
-<td>0x0004</td>
+<td>Malformed packet</td>
+<td><code>prefix != "AZ"</code> or <code>suffix != "BY"</code></td>
+<td>Discard silently, print error</td>
 </tr>
 <tr>
-<td>6</td>
-<td><code>acked_msg_type</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0x01</td>
-<td>0xFF</td>
+<td>Unknown sender</td>
+<td><code>src</code> not in <code>KNOWN_IDS</code></td>
+<td>Discard silently, print error</td>
 </tr>
 <tr>
-<td>7</td>
-<td><code>status</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
+<td>Own message looped back</td>
+<td><code>src == MY_ID ('B')</code></td>
+<td>Discard (loop prevention)</td>
 </tr>
 <tr>
-<td>8</td>
-<td><code>error_code</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>0x08</td>
+<td>Buffer overflow</td>
+<td><code>len(buffer) &gt; 128 bytes</code></td>
+<td>Clear entire buffer, print error</td>
 </tr>
 <tr>
-<td>9–61</td>
-<td><code>text</code></td>
-<td><code>char[]</code></td>
-<td>53</td>
-<td>—</td>
-<td>—</td>
+<td>Unknown command (direct)</td>
+<td>Payload not <code>FWD</code>/<code>REV</code>/<code>STOP</code></td>
+<td>ACK sent, motor state unchanged</td>
+</tr>
+<tr>
+<td>Out-of-frame bytes</td>
+<td>Bytes before valid <code>AZ</code> prefix</td>
+<td>Re-sync: strip bytes until <code>AZ</code> found</td>
 </tr>
 </tbody>
 </table>
 <hr>
-<h3 id="0x0005-error-event-log"><code>0x0005</code> — Error / Event Log</h3>
-<p><strong>From:</strong> Bryce (B)<br>
-<strong>To:</strong> Riley (F)<br>
-<strong>Type:</strong> <span class="tag send">Send</span></p>
-<p>Sent when a motor fault occurs.</p>
+<h2 id="message-forwarding-rules">Message Forwarding Rules</h2>
 <table>
 <thead>
 <tr>
-<th>Byte(s)</th>
-<th>Field</th>
-<th>Type</th>
-<th>Bytes</th>
-<th>Min</th>
-<th>Max</th>
-<th>Example</th>
+<th><code>dst</code> value</th>
+<th>Action</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>4–5</td>
-<td><code>message_type</code></td>
-<td><code>uint16_t</code></td>
-<td>2</td>
-<td>0x0005</td>
-<td>0x0005</td>
-<td></td>
+<td><code>B</code> (this node)</td>
+<td>Process command + send ACK</td>
 </tr>
 <tr>
-<td>6</td>
-<td><code>error_code</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0x01</td>
-<td>0x08</td>
-<td>0x03</td>
+<td><code>X</code> (broadcast)</td>
+<td>Execute command + forward packet</td>
 </tr>
 <tr>
-<td>7</td>
-<td><code>severity</code></td>
-<td><code>uint8_t</code></td>
-<td>1</td>
-<td>0</td>
-<td>3</td>
-<td>2</td>
-</tr>
-<tr>
-<td>8–61</td>
-<td><code>message_text</code></td>
-<td><code>char[]</code></td>
-<td>54</td>
-<td>—</td>
-<td>—</td>
-<td></td>
+<td>Any other known ID</td>
+<td>Forward packet unchanged (no ACK, no action)</td>
 </tr>
 </tbody>
 </table>
-<blockquote>
-<p><strong>Error Codes</strong>
-0x01 Motor not found<br>
-0x02 Invalid parameter<br>
-0x03 Overcurrent<br>
-0x04 TTL expired<br>
-0x05 Destination unreachable<br>
-0x06 CRC failure<br>
-0x07 Unsupported message<br>
-0x08 Resource busy  </p>
-</blockquote>
-<h2 id="team-member-identifiers">Team Member Identifiers</h2>
-<p>B - Bryce <br>
-H - Hattie <br>
-T - Tim <br>
-F - Riley <br>
-W - Rylee <br> 
-E - Everyone <br></p>
+<hr>
+<h2 id="hardware-summary">Hardware Summary</h2>
+<table>
+<thead>
+<tr>
+<th>Signal</th>
+<th>Pin</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UART TX</td>
+<td>GPIO 43</td>
+<td>Daisy-chain transmit</td>
+</tr>
+<tr>
+<td>UART RX</td>
+<td>GPIO 44</td>
+<td>Daisy-chain receive</td>
+</tr>
+<tr>
+<td><code>dir_pin</code></td>
+<td>GPIO 18</td>
+<td>Motor direction (1=FWD, 0=REV)</td>
+</tr>
+<tr>
+<td><code>pwm_pin</code></td>
+<td>GPIO 16</td>
+<td>Motor enable/PWM</td>
+</tr>
+<tr>
+<td><code>dis</code></td>
+<td>GPIO 15</td>
+<td>Driver disable (active low enable)</td>
+</tr>
+<tr>
+<td><code>cs</code></td>
+<td>GPIO 14</td>
+<td>SPI chip select</td>
+</tr>
+<tr>
+<td><code>led</code></td>
+<td>GPIO 6</td>
+<td>Status LED (on = motor running)</td>
+</tr>
+<tr>
+<td>Debug button</td>
+<td>GPIO 5</td>
+<td>Cycles STOP→FWD→REV locally</td>
+</tr>
+<tr>
+<td>Failsafe (BOOT)</td>
+<td>GPIO 0</td>
+<td>Hold 1.5s to emergency stop</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="failsafe-behavior">Failsafe Behavior</h2>
+<ul>
+<li><strong>Startup check:</strong> If the BOOT button (GPIO 0) is held at power-on, the node enters safe mode immediately (motor stopped, program exits).</li>
+<li><strong>Runtime check:</strong> If BOOT is held for <strong>&gt;1500 ms</strong> during operation, the motor is stopped and the program exits.</li>
+<li><strong>Debug button (GPIO 5):</strong> Locally cycles motor state <code>STOP → FWD → REV → STOP</code> without requiring a UART message. Debounced at 50 ms.</li>
+</ul>
 
 
 
